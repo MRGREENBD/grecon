@@ -11,6 +11,6 @@ sudo cp grecon /usr/local/bin/
 
 How To Use .
 
-cat domain-list | gitrecon or gitrecon target.com
+cat domain-list | grecon or grecon target.com
 
 Good Luck .
