@@ -2,10 +2,11 @@
 import sys ,os ,time
 import webbrowser
 
+
 def Hasan(Domain):
-	Github = ['"'+Domain+'" "password":','"'+Domain+'" "LdapUsername":','"'+Domain+'" "ConnectionStrings":','"'+Domain+'" string _password =','"'+Domain+'" auth ','"'+Domain+'" filetype:yaml mongodb','"'+Domain+'" email and password','"'+Domain+'" secret_access_key','"'+Domain+'" filename:sftp-config.json password','"'+Domain+'" api_tokan','"'+Domain+'" secret_key','"'+Domain+'" db_username and db password','"'+Domain+'" credentials aws_access_id','"'+Domain+'" authoriztion']
+	Google =  ["site:"+Domain+" ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup","site:"+Domain+" ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini","site:"+Domain+" ext:sql | ext:dbf | ext:mdb","site:"+Domain+" ext:log","site:"+Domain+" inurl:login"]
 	try:
-		for URL in Github:		
+		for URL in Google:		
 			print(URL)
 			webbrowser.open("https://www.google.com/search?q="+URL)
 	except KeyboardInterrupt:
